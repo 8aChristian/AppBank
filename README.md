@@ -10,3 +10,4 @@ En esta version se implementa 2 tabs.Y la interfaz grafica de la primera paginas
 ### v.2.0 -AppBank
 En esta version se implementa la interfaz grafica completa.(version beta sin elementos ionic)"# AppBank" 
 "# AppBank" 
+"# AppBank" 
