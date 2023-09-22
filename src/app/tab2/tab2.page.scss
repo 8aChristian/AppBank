@@ -1,0 +1,103 @@
+.header{
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    height: 5rem;
+    justify-content:space-between;
+    padding:1rem;
+  }
+  img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+  }
+  .header-items {
+    
+    display: none;
+  }
+  .header-button:hover .header-items {
+    display: block;
+  }
+  .header-info{
+    
+    flex-direction: row-reverse;
+    
+    display: flex;
+  }
+  .info-perfil{
+    display: flex;
+    
+    
+  }
+  .info-nombre{
+    margin-bottom: 1rem;
+    display: flex;
+    
+  }
+  .imagenperfil{
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.3rem;
+  margin-top: -0.2rem;
+  
+  }
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .calendar-header {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Cambiar el color del texto a azul */
+  }
+  
+  .calendar-day {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff; /* Cambiar el color del texto a azul */
+  }
+  
+  .calendar-day:nth-child(7n + 1) {
+    color: #dc3545; /* Cambiar el color del texto a rojo oscuro */
+  }
+  
+  .calendar-day:nth-child(7n) {
+    color: #007bff; /* Cambiar el color del texto a azul */
+  }
+  
+  .calendar-day:hover {
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la tabla de ganancias */
+  .earnings-table {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+  }
+  
+  .earnings-table th,
+  .earnings-table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .earnings-table th {
+    background-color: #007bff; /* Cambiar el color de fondo a azul */
+    color: white;
+  }
+  
+  .earnings-table td {
+    font-size: 18px;
+  }

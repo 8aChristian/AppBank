@@ -1,0 +1,146 @@
+.header{
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    height: 5rem;
+    justify-content:space-between;
+    padding:1rem;
+  }
+  img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+  }
+  .header-items {
+    
+    display: none;
+  }
+  .header-button:hover .header-items {
+    display: block;
+  }
+  .header-info{
+    
+    flex-direction: row-reverse;
+    
+    display: flex;
+  }
+  .info-perfil{
+    display: flex;
+    
+    
+  }
+  .info-nombre{
+    margin-bottom: 1rem;
+    display: flex;
+    
+  }
+  .imagenperfil{
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.3rem;
+  margin-top: -0.2rem;
+  
+  }
+  .savings-section {
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: #ffffff;
+    width: 90%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .savings-section h2 {
+    margin-top: 0;
+  }
+  
+  .savings-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .savings-info p {
+    font-size: 1.2rem;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 2rem;
+    background-color: #eee;
+    margin-top: 1rem;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #3498db;
+  }
+  
+  .savings-tips {
+    margin-top: 2rem;
+  }
+  
+  .savings-tips h3 {
+    margin-top: 0;
+  }
+  
+  .savings-tips ul {
+    padding-left: 2rem;
+  }
+  
+  .savings-tips li {
+    margin-bottom: 1rem;
+  }
+  
+  .savings-tips a {
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .savings-summary {
+    margin-top: 2rem;
+  }
+  
+  .savings-summary h3 {
+    margin-top: 0;
+  }
+  
+  .savings-summary p {
+    font-size: 1.2rem;
+  }
+  
+  .savings-summary ul {
+    padding-left: 2rem;
+  }
+  
+  .savings-summary li {
+    margin-bottom: 1rem;
+  }
+  
+  .savings-goals {
+    margin-top: 2rem;
+  }
+  
+  .savings-goals h3 {
+    margin-top: 0;
+  }
+  
+  .savings-resources {
+    margin-top: 2rem;
+  }
+  
+  .savings-resources h3 {
+    margin-top: 0;
+  }
+  
+  .savings-offers {
+    margin-top: 2rem;
+  }
+  
+  .savings-offers h3 {
+    margin-top: 0;
+  }
+  

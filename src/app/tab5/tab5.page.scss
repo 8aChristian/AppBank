@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    height: 5rem;
+    justify-content:space-between;
+    padding:1rem;
+  }
+  img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+  }
+  .header-items {
+    
+    display: none;
+  }
+  .header-button:hover .header-items {
+    display: block;
+  }
+  .header-info{
+    
+    flex-direction: row-reverse;
+    
+    display: flex;
+  }
+  .info-perfil{
+    display: flex;
+    
+    
+  }
+  .info-nombre{
+    margin-bottom: 1rem;
+    display: flex;
+    
+  }
+  .imagenperfil{
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.3rem;
+  margin-top: -0.2rem;
+  
+  }
+  .container {
+    max-width: 50rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .investments-summary {
+    background-color: #0077b6;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .investments-summary h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .investment-opportunities {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .investment-card {
+    color:black;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .investment-card h4 {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+  
+  .investment-card p {
+    font-size: 1rem;
+  }
+  
+  .investment-card button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .investment-card button:hover {
+    background-color: #005691;
+  }
